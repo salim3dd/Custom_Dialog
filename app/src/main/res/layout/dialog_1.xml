@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="هل تريد الخروج من التطبيق ؟"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:padding="30dp"
+        android:textColor="#FF0000"
+        android:background="#c0c3f4"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:text="موافق"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_ok"
+            android:background="#55246513"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="إغلاق"
+            android:background="#55f1ae9a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_close"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>
